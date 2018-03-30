@@ -86,6 +86,11 @@ else
   " par la police choisie
   set list
   set listchars=tab:→→,eol:¬,trail:·
+
+  " Problème avec la touche backspace sur ConEmu
+  inoremap <Char-0x07F> <BS>
+  nnoremap <Char-0x07F> <BS>
+
   colorscheme peaksea
 endif
 

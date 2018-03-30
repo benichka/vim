@@ -21,17 +21,17 @@ $\&nbsp;;
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1522418285,,"q"
+|2,0,1522419042,,"q"
+:w
+|2,0,1522419038,,"w"
+:e $MYVIMRC
+|2,0,1522418969,,"e $MYVIMRC"
 :bd
 |2,0,1522418284,,"bd"
-:w
-|2,0,1522418281,,"w"
 :q!
 |2,0,1522418204,,"q!"
 :48,49m.
 |2,0,1522417844,,"48,49m."
-:e $MYVIMRC
-|2,0,1522417797,,"e $MYVIMRC"
 :e C:\00\ -\ Data\programmation\PythonWork\readme.md
 |2,0,1522414556,,"e C:\\00\\ -\\ Data\\programmation\\PythonWork\\readme.md"
 :e C:\00\ -\ Data\programmation\PythonWork\readme.m
@@ -159,35 +159,65 @@ $\&nbsp;;
 |3,0,9,1,1,0,1522237024,"<br>"
 ""-	CHAR	0
 	a
-|3,1,36,0,1,0,1522418260,"a"
+|3,1,36,0,1,0,1522419037,"a"
 
 # File marks:
-'0  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
-|4,48,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
-'1  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
-|4,49,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
-'2  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
-|4,50,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
-'3  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,51,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
-'4  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,52,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
-'5  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,53,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
+'0  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
+|4,48,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
+'1  90  48  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,49,90,48,1522419000,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+'2  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,50,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+'3  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,51,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+'4  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,52,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+'5  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,53,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 '6  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
 |4,54,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
-'7  2  20  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,55,2,20,1522082911,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
-'8  1  20  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,56,1,20,1522082911,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
-'9  67  34  ~\AppData\Local\Temp\scp26726\home\pi\test\hcsr04.py
-|4,57,67,34,1521976410,"~\\AppData\\Local\\Temp\\scp26726\\home\\pi\\test\\hcsr04.py"
+'7  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
+|4,55,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
+'8  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
+|4,56,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
+'9  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
+|4,57,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
 
 # Jumplist (newest first):
+-'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
+|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
+-'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
+|4,39,5,0,1522419026,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
+-'  90  48  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,90,48,1522419000,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  90  48  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,90,48,1522419000,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,1,0,1522418969,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,1,0,1522418969,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  2  27  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,2,27,1522418284,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+-'  2  27  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,2,27,1522418284,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+-'  2  27  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,2,27,1522418284,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
 -'  2  27  C:\00 - Data\zz - Utilitaires\vim\readme.md
 |4,39,2,27,1522418284,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
 -'  1  0  C:\00 - Data\zz - Utilitaires\vim\readme.md
 |4,39,1,0,1522418249,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,1,0,1522418249,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,1,0,1522418249,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,1,0,1522418249,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+-'  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+-'  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+-'  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,39,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
 -'  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
 |4,39,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
 -'  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
@@ -198,6 +228,30 @@ $\&nbsp;;
 |4,39,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
 |4,39,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  58  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,58,0,1522417859,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  58  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,58,0,1522417859,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  58  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,58,0,1522417859,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  58  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,58,0,1522417859,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  58  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,58,0,1522417859,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  58  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,58,0,1522417859,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  58  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
 |4,39,58,0,1522417859,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  58  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
@@ -214,6 +268,18 @@ $\&nbsp;;
 |4,39,57,0,1522417856,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  57  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
 |4,39,57,0,1522417856,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  57  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,57,0,1522417856,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  57  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,57,0,1522417856,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  57  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,57,0,1522417856,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  57  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,57,0,1522417856,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  57  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,57,0,1522417856,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  57  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,57,0,1522417856,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
 |4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
@@ -222,6 +288,26 @@ $\&nbsp;;
 |4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
 |4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  60  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,60,0,1522417830,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,1,0,1522417797,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,1,0,1522417797,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,1,0,1522417797,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+-'  1  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,39,1,0,1522417797,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  1  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
 |4,39,1,0,1522417797,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 -'  1  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
@@ -246,158 +332,78 @@ $\&nbsp;;
 |4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
 -'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
 |4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
+-'  2  36  C:\00 - Data\programmation\PythonWork\readme.md
+|4,39,2,36,1522414579,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
 -'  1  0  C:\00 - Data\programmation\PythonWork\readme.md
 |4,39,1,0,1522414556,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
 -'  1  0  C:\00 - Data\programmation\PythonWork\readme.md
 |4,39,1,0,1522414556,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.md
-|4,39,1,0,1522414556,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.md
-|4,39,1,0,1522414556,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.md
-|4,39,1,0,1522414556,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.md
-|4,39,1,0,1522414556,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.md
-|4,39,1,0,1522414556,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.md
-|4,39,1,0,1522414556,"C:\\00 - Data\\programmation\\PythonWork\\readme.md"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.m
-|4,39,1,0,1522414553,"C:\\00 - Data\\programmation\\PythonWork\\readme.m"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.m
-|4,39,1,0,1522414553,"C:\\00 - Data\\programmation\\PythonWork\\readme.m"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.m
-|4,39,1,0,1522414553,"C:\\00 - Data\\programmation\\PythonWork\\readme.m"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.m
-|4,39,1,0,1522414553,"C:\\00 - Data\\programmation\\PythonWork\\readme.m"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.m
-|4,39,1,0,1522414553,"C:\\00 - Data\\programmation\\PythonWork\\readme.m"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.m
-|4,39,1,0,1522414553,"C:\\00 - Data\\programmation\\PythonWork\\readme.m"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.m
-|4,39,1,0,1522414553,"C:\\00 - Data\\programmation\\PythonWork\\readme.m"
--'  1  0  C:\00 - Data\programmation\PythonWork\readme.m
-|4,39,1,0,1522414553,"C:\\00 - Data\\programmation\\PythonWork\\readme.m"
--'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,5,0,1522414462,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,5,0,1522414462,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,5,0,1522414462,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,5,0,1522414462,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,5,0,1522414462,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,5,0,1522414462,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,5,0,1522414462,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  5  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,5,0,1522414462,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  1  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,1,0,1522347489,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  1  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,1,0,1522347489,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  1  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,1,0,1522347489,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  1  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,1,0,1522347489,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  1  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,1,0,1522347489,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  1  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,1,0,1522347489,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  1  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,1,0,1522347489,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  1  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,1,0,1522347489,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  65  2  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,65,2,1522324367,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  65  2  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,65,2,1522324367,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  65  2  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,65,2,1522324367,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  65  2  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,65,2,1522324367,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  65  2  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,65,2,1522324367,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  65  2  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,65,2,1522324367,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  65  2  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,65,2,1522324367,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  65  2  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,65,2,1522324367,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  67  178  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,67,178,1522324337,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  67  178  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,67,178,1522324337,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  67  178  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,67,178,1522324337,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  67  178  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,67,178,1522324337,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  67  178  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,67,178,1522324337,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  67  178  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,67,178,1522324337,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  67  178  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,67,178,1522324337,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  67  178  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,67,178,1522324337,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  66  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,66,0,1522324076,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  66  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,66,0,1522324076,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  66  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,66,0,1522324076,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  66  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,66,0,1522324076,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  66  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,66,0,1522324076,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  66  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,66,0,1522324076,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  66  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,66,0,1522324076,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  66  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,66,0,1522324076,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  2  13  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,2,13,1522323354,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  2  13  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,2,13,1522323354,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  2  13  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,2,13,1522323354,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  2  13  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,2,13,1522323354,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  2  13  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,2,13,1522323354,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  2  13  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,2,13,1522323354,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  2  13  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,2,13,1522323354,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  2  13  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,2,13,1522323354,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  68  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,68,0,1522323314,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  68  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,68,0,1522323314,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  68  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,68,0,1522323314,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
--'  68  0  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,39,68,0,1522323314,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
 
 # History of marks within files (newest to oldest):
 
-> C:\00 - Data\zz - Utilitaires\vim\readme.md
-	*	1522418281	0
-	"	2	27
-	^	2	28
-	.	2	27
-	+	1	4
-	+	2	27
+> C:\00 - Data\programmation\PythonWork\helloWorld.py
+	*	1522419038	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	2	20
+	+	1	23
+	+	2	12
+	+	3	0
+	+	5	8
+	+	6	0
 
 > C:\00 - Data\zz - Utilitaires\vim\_vimrc
-	*	1522417896	0
-	"	53	0
-	^	53	0
-	.	53	0
+	*	1522418999	0
+	"	90	48
+	^	90	49
+	.	90	48
 	+	48	0
 	+	58	0
 	+	57	0
@@ -406,6 +412,19 @@ $\&nbsp;;
 	+	51	65
 	+	52	12
 	+	53	0
+	+	91	0
+	+	93	0
+	+	91	0
+	+	92	0
+	+	90	48
+
+> C:\00 - Data\zz - Utilitaires\vim\readme.md
+	*	1522418281	0
+	"	2	27
+	^	2	28
+	.	2	27
+	+	1	4
+	+	2	27
 
 > C:\00 - Data\programmation\PythonWork\readme.md
 	*	1522414578	0
@@ -417,17 +436,6 @@ $\&nbsp;;
 > C:\00 - Data\programmation\PythonWork\readme.m
 	*	1522414552	0
 	"	1	0
-
-> C:\00 - Data\programmation\PythonWork\helloWorld.py
-	*	1522414460	0
-	"	5	0
-	^	5	14
-	.	5	8
-	+	2	20
-	+	1	23
-	+	2	12
-	+	3	0
-	+	5	8
 
 > ~\OneDrive\zz - à traiter\HHC\compteRendu.md
 	*	1522347481	0
