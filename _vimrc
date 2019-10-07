@@ -3,8 +3,6 @@ set nocompatible
 " Placement du fichier _viminfo où l'on veut
 set viminfo='1000,n$VIM/viminfo
 
-let $UTILS="C:/00\ -\ Data/zz\ -\ Utilitaires"
-
 " redéfinition de la touche leader, et par effet de bord de la touche , par
 " défaut pour bien gérer la recherche avec "f"
 let mapleader=','
@@ -52,7 +50,7 @@ set encoding=utf-8
 set autochdir
 
 " changement du répertoire de travail
-cd C:\00\ -\ Data\temp
+cd D:\temp
 
 " gestion de l'encodage des fichiers (vim va les essayer tous et voir celui
 " qui convient)
