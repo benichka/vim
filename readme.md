@@ -16,5 +16,4 @@ It is also simpler to integrate with Git that way.
 - Go to _Control Panel -> System and Security -> System -> Advanced system settings_;
 - click the "Environment variables" button;
 - in the "System variables" part, edit the "Path" variable;
-- add the entry to vim executable: [your path]\vim\vim81.
-
+- add the entry to vim executable: "\[your path\]\vim\vim81".
