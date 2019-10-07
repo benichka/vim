@@ -20,22 +20,22 @@
 $\&nbsp;;
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1570477781,,"q"
+:w
+|2,0,1570477780,,"w"
+:e $MYVIMRC
+|2,0,1570477296,,"e $MYVIMRC"
 :wq
 |2,0,1570477044,,"wq"
-:w
-|2,0,1570476952,,"w"
 :se backupdir?
 |2,0,1570476919,,"se backupdir?"
 :se backup?
 |2,0,1570476911,,"se backup?"
 :w!
 |2,0,1570476854,,"w!"
-:q
-|2,0,1570475700,,"q"
 :q!
 |2,0,1570473808,,"q!"
-:e $MYVIMRC
-|2,0,1522418969,,"e $MYVIMRC"
 :bd
 |2,0,1522418284,,"bd"
 :48,49m.
@@ -110,6 +110,8 @@ $\&nbsp;;
 |2,0,1519023288,,"set viminfo"
 
 # Search String History (newest to oldest):
+?/backup
+|2,1,1570477308,47,"backup"
 ?/\cCD
 |2,1,1522417830,47,"\\cCD"
 ? \s;
@@ -170,32 +172,94 @@ $\&nbsp;;
 |3,1,36,0,1,0,1570476837,"utilitaires\\"
 
 # File marks:
-'0  20  0  D:\utilitaires\vim\readme.md
-|4,48,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
-'1  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,49,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
-'2  90  48  C:\00 - Data\zz - Utilitaires\vim\_vimrc
-|4,50,90,48,1522419000,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
-'3  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
-|4,51,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
-'4  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
-|4,52,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
-'5  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
-|4,53,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
-'6  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
-|4,54,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
-'7  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,55,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
-'8  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,56,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
-'9  40  29  ~\OneDrive\zz - à traiter\HHC\compteRendu.md
-|4,57,40,29,1522170129,"~\\OneDrive\\zz - à traiter\\HHC\\compteRendu.md"
+'0  4  26  D:\utilitaires\vim\.gitignore
+|4,48,4,26,1570477781,"D:\\utilitaires\\vim\\.gitignore"
+'1  1  0  D:\utilitaires\vim\_vimrc
+|4,49,1,0,1570477346,"D:\\utilitaires\\vim\\_vimrc"
+'2  1  46  D:\utilitaires\vim\.git\COMMIT_EDITMSG
+|4,50,1,46,1570477136,"D:\\utilitaires\\vim\\.git\\COMMIT_EDITMSG"
+'3  20  0  D:\utilitaires\vim\readme.md
+|4,51,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
+'4  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
+|4,52,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
+'5  90  48  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,53,90,48,1522419000,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+'6  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,54,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+'7  1  4  C:\00 - Data\zz - Utilitaires\vim\readme.md
+|4,55,1,4,1522418204,"C:\\00 - Data\\zz - Utilitaires\\vim\\readme.md"
+'8  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,56,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
+'9  53  0  C:\00 - Data\zz - Utilitaires\vim\_vimrc
+|4,57,53,0,1522418002,"C:\\00 - Data\\zz - Utilitaires\\vim\\_vimrc"
 
 # Jumplist (newest first):
+-'  4  26  D:\utilitaires\vim\.gitignore
+|4,39,4,26,1570477781,"D:\\utilitaires\\vim\\.gitignore"
+-'  8  0  D:\utilitaires\vim\.gitignore
+|4,39,8,0,1570477746,"D:\\utilitaires\\vim\\.gitignore"
+-'  5  0  D:\utilitaires\vim\.gitignore
+|4,39,5,0,1570477737,"D:\\utilitaires\\vim\\.gitignore"
+-'  1  0  D:\utilitaires\vim\.gitignore
+|4,39,1,0,1570477573,"D:\\utilitaires\\vim\\.gitignore"
+-'  1  0  D:\utilitaires\vim\_vimrc
+|4,39,1,0,1570477346,"D:\\utilitaires\\vim\\_vimrc"
+-'  1  0  D:\utilitaires\vim\_vimrc
+|4,39,1,0,1570477346,"D:\\utilitaires\\vim\\_vimrc"
+-'  1  46  D:\utilitaires\vim\.git\COMMIT_EDITMSG
+|4,39,1,46,1570477136,"D:\\utilitaires\\vim\\.git\\COMMIT_EDITMSG"
+-'  1  46  D:\utilitaires\vim\.git\COMMIT_EDITMSG
+|4,39,1,46,1570477136,"D:\\utilitaires\\vim\\.git\\COMMIT_EDITMSG"
+-'  1  46  D:\utilitaires\vim\.git\COMMIT_EDITMSG
+|4,39,1,46,1570477136,"D:\\utilitaires\\vim\\.git\\COMMIT_EDITMSG"
+-'  1  46  D:\utilitaires\vim\.git\COMMIT_EDITMSG
+|4,39,1,46,1570477136,"D:\\utilitaires\\vim\\.git\\COMMIT_EDITMSG"
+-'  20  0  D:\utilitaires\vim\readme.md
+|4,39,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
+-'  20  0  D:\utilitaires\vim\readme.md
+|4,39,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
+-'  20  0  D:\utilitaires\vim\readme.md
+|4,39,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
+-'  20  0  D:\utilitaires\vim\readme.md
+|4,39,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
+-'  20  0  D:\utilitaires\vim\readme.md
+|4,39,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
+-'  20  0  D:\utilitaires\vim\readme.md
+|4,39,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
+-'  20  0  D:\utilitaires\vim\readme.md
+|4,39,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
 -'  20  0  D:\utilitaires\vim\readme.md
 |4,39,20,0,1570477044,"D:\\utilitaires\\vim\\readme.md"
 -'  17  42  D:\utilitaires\vim\readme.md
 |4,39,17,42,1570476815,"D:\\utilitaires\\vim\\readme.md"
+-'  17  42  D:\utilitaires\vim\readme.md
+|4,39,17,42,1570476815,"D:\\utilitaires\\vim\\readme.md"
+-'  17  42  D:\utilitaires\vim\readme.md
+|4,39,17,42,1570476815,"D:\\utilitaires\\vim\\readme.md"
+-'  17  42  D:\utilitaires\vim\readme.md
+|4,39,17,42,1570476815,"D:\\utilitaires\\vim\\readme.md"
+-'  17  42  D:\utilitaires\vim\readme.md
+|4,39,17,42,1570476815,"D:\\utilitaires\\vim\\readme.md"
+-'  17  42  D:\utilitaires\vim\readme.md
+|4,39,17,42,1570476815,"D:\\utilitaires\\vim\\readme.md"
+-'  17  42  D:\utilitaires\vim\readme.md
+|4,39,17,42,1570476815,"D:\\utilitaires\\vim\\readme.md"
+-'  17  42  D:\utilitaires\vim\readme.md
+|4,39,17,42,1570476815,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570476138,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570476138,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570476138,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570476138,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570476138,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570476138,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570476138,"D:\\utilitaires\\vim\\readme.md"
 -'  1  0  D:\utilitaires\vim\readme.md
 |4,39,1,0,1570476138,"D:\\utilitaires\\vim\\readme.md"
 -'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
@@ -330,70 +394,33 @@ $\&nbsp;;
 |4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
 -'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
 |4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
--'  6  0  C:\00 - Data\programmation\PythonWork\helloWorld.py
-|4,39,6,0,1522419042,"C:\\00 - Data\\programmation\\PythonWork\\helloWorld.py"
 
 # History of marks within files (newest to oldest):
+
+> D:\utilitaires\vim\.gitignore
+	*	1570477780	0
+	"	4	26
+	^	4	27
+	.	4	26
+	+	1	4
+	+	5	0
+	+	4	25
+	+	5	11
+	+	8	0
+	+	6	0
+	+	1	32
+	+	4	26
+
+> D:\utilitaires\vim\_vimrc
+	*	1570477308	0
+	"	1	0
+
+> D:\utilitaires\vim\.git\COMMIT_EDITMSG
+	*	1570477135	0
+	"	1	46
+	^	1	47
+	.	1	46
+	+	1	46
 
 > D:\utilitaires\vim\readme.md
 	*	1570477023	0
