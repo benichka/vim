@@ -22,7 +22,11 @@ set softtabstop=2
 set tabstop=2
 
 " gestion des plugins
-filetype plugin on
+execute pathogen#infect()
+
+" Syntax highlighting, filetype detection, file-indent detection.
+syntax on
+filetype plugin indent on
 
 " pas de undofile
 set noundofile
