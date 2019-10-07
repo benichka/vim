@@ -91,7 +91,7 @@ else
   inoremap <Char-0x07F> <BS>
   nnoremap <Char-0x07F> <BS>
 
-  colorscheme peaksea
+  colorscheme default
 endif
 
 set diffexpr=MyDiff()
