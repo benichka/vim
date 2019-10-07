@@ -63,6 +63,8 @@ set fileencodings=ucs-bom,utf-8,cp1252,latin1
 " par défaut, on crée un fichier au format UNIX
 set fileformats=unix,dos
 
+set nowrap
+
 " La touche espace provoque le toggle des fold
 nnoremap <Space> za
 

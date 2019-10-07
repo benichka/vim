@@ -21,15 +21,31 @@ $vimfiles
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1570480562,,"q"
+|2,0,1570482299,,"q"
+:e Associations.docx:
+|2,0,1570482270,,"e Associations.docx:"
+:9
+|2,0,1570482135,,"9"
+:w
+|2,0,1570481265,,"w"
+:bd
+|2,0,1570481248,,"bd"
+:help wrap
+|2,0,1570481188,,"help wrap"
 :e $MYVIMRC
-|2,0,1570480546,,"e $MYVIMRC"
+|2,0,1570481172,,"e $MYVIMRC"
+:set wrap?
+|2,0,1570481162,,"set wrap?"
+:set wordwrap?
+|2,0,1570481138,,"set wordwrap?"
+:set ft?
+|2,0,1570481017,,"set ft?"
+:q!
+|2,0,1570480902,,"q!"
 :set syntax?
 |2,0,1570480533,,"set syntax?"
 :e mytest.xml
 |2,0,1570480528,,"e mytest.xml"
-:w
-|2,0,1570480510,,"w"
 :syntax?
 |2,0,1570480430,,"syntax?"
 :syntax
@@ -44,8 +60,6 @@ $vimfiles
 |2,0,1570479132,,"24"
 :e $VIMRC
 |2,0,1570479068,,"e $VIMRC"
-:q!
-|2,0,1570479038,,"q!"
 :%s/vim/vimfiles/g
 |2,0,1570478371,,"%s/vim/vimfiles/g"
 :s/vim/vimfiles/g
@@ -60,8 +74,6 @@ $vimfiles
 |2,0,1570476911,,"se backup?"
 :w!
 |2,0,1570476854,,"w!"
-:bd
-|2,0,1522418284,,"bd"
 :48,49m.
 |2,0,1522417844,,"48,49m."
 :e C:\00\ -\ Data\programmation\PythonWork\readme.md
@@ -134,6 +146,8 @@ $vimfiles
 |2,0,1519023288,,"set viminfo"
 
 # Search String History (newest to oldest):
+?/wrap
+|2,1,1570481175,47,"wrap"
 ?/syntax
 |2,1,1570480440,47,"syntax"
 ?/indent
@@ -182,9 +196,9 @@ $vimfiles
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	endif
-|3,1,1,1,1,0,1570479957,"endif"
+|3,0,1,1,1,0,1570479957,"endif"
 "2	LINE	0
 	  set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
 |3,0,2,1,1,0,1570479956,"  set runtimepath=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after"
@@ -209,245 +223,276 @@ $vimfiles
 "9	LINE	0
 	Merci au Hacking Health Camp pour cette cinquième édition et merci à SFEIR pour m'avoir permis de participer à ce formidable évènement.  
 |3,0,9,1,1,0,1522237108,"Merci au Hacking Health Camp pour cette cinquième édition et merci à SFEIR pour m'avoir permis de participer à ce formidable évènement.  "
-"-	CHAR	0
-	"
-|3,0,36,0,1,0,1570479150,"\""
+""-	CHAR	0
+	*
+|3,1,36,0,1,0,1570482185,"*"
 
 # File marks:
-'0  65  0  D:\utilitaires\vim\_vimrc
-|4,48,65,0,1570480562,"D:\\utilitaires\\vim\\_vimrc"
-'1  1  0  D:\temp\mytest.xml
-|4,49,1,0,1570480534,"D:\\temp\\mytest.xml"
-'2  27  64  D:\utilitaires\vim\_vimrc
-|4,50,27,64,1570480513,"D:\\utilitaires\\vim\\_vimrc"
-'3  27  64  D:\utilitaires\vim\_vimrc
-|4,51,27,64,1570480513,"D:\\utilitaires\\vim\\_vimrc"
-'4  25  0  D:\utilitaires\vim\_vimrc
-|4,52,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
-'5  25  0  D:\utilitaires\vim\_vimrc
-|4,53,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
-'6  25  0  D:\utilitaires\vim\_vimrc
-|4,54,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
-'7  25  0  D:\utilitaires\vim\_vimrc
-|4,55,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
-'8  25  7  D:\utilitaires\vim\_vimrc
-|4,56,25,7,1570479818,"D:\\utilitaires\\vim\\_vimrc"
-'9  25  7  D:\utilitaires\vim\_vimrc
-|4,57,25,7,1570479818,"D:\\utilitaires\\vim\\_vimrc"
+'0  9  13  D:\utilitaires\vim\readme.md
+|4,48,9,13,1570482299,"D:\\utilitaires\\vim\\readme.md"
+'1  9  13  D:\utilitaires\vim\readme.md
+|4,49,9,13,1570482207,"D:\\utilitaires\\vim\\readme.md"
+'2  66  9  D:\utilitaires\vim\_vimrc
+|4,50,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+'3  9  0  D:\utilitaires\vim\readme.md
+|4,51,9,0,1570481019,"D:\\utilitaires\\vim\\readme.md"
+'4  9  0  D:\utilitaires\vim\readme.md
+|4,52,9,0,1570481019,"D:\\utilitaires\\vim\\readme.md"
+'5  9  0  D:\utilitaires\vim\readme.md
+|4,53,9,0,1570481019,"D:\\utilitaires\\vim\\readme.md"
+'6  9  0  D:\utilitaires\vim\readme.md
+|4,54,9,0,1570481019,"D:\\utilitaires\\vim\\readme.md"
+'7  9  0  D:\utilitaires\vim\readme.md
+|4,55,9,0,1570481019,"D:\\utilitaires\\vim\\readme.md"
+'8  9  0  D:\utilitaires\vim\readme.md
+|4,56,9,0,1570481019,"D:\\utilitaires\\vim\\readme.md"
+'9  9  0  D:\utilitaires\vim\readme.md
+|4,57,9,0,1570480952,"D:\\utilitaires\\vim\\readme.md"
 
 # Jumplist (newest first):
--'  65  0  D:\utilitaires\vim\_vimrc
-|4,39,65,0,1570480562,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570480546,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\temp\mytest.xml
-|4,39,1,0,1570480534,"D:\\temp\\mytest.xml"
--'  1  0  D:\temp\mytest.xml
-|4,39,1,0,1570480534,"D:\\temp\\mytest.xml"
--'  27  64  D:\utilitaires\vim\_vimrc
-|4,39,27,64,1570480513,"D:\\utilitaires\\vim\\_vimrc"
--'  27  64  D:\utilitaires\vim\_vimrc
-|4,39,27,64,1570480513,"D:\\utilitaires\\vim\\_vimrc"
--'  27  64  D:\utilitaires\vim\_vimrc
-|4,39,27,64,1570480513,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570480274,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570480274,"D:\\utilitaires\\vim\\_vimrc"
--'  25  0  D:\utilitaires\vim\_vimrc
-|4,39,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
--'  25  0  D:\utilitaires\vim\_vimrc
-|4,39,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
--'  25  0  D:\utilitaires\vim\_vimrc
-|4,39,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
--'  25  0  D:\utilitaires\vim\_vimrc
-|4,39,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
--'  25  0  D:\utilitaires\vim\_vimrc
-|4,39,25,0,1570480068,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479954,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479954,"D:\\utilitaires\\vim\\_vimrc"
--'  25  7  D:\utilitaires\vim\_vimrc
-|4,39,25,7,1570479818,"D:\\utilitaires\\vim\\_vimrc"
--'  25  7  D:\utilitaires\vim\_vimrc
-|4,39,25,7,1570479818,"D:\\utilitaires\\vim\\_vimrc"
--'  29  24  D:\utilitaires\vim\_vimrc
-|4,39,29,24,1570479810,"D:\\utilitaires\\vim\\_vimrc"
--'  26  24  D:\utilitaires\vim\_vimrc
-|4,39,26,24,1570479810,"D:\\utilitaires\\vim\\_vimrc"
--'  29  24  D:\utilitaires\vim\_vimrc
-|4,39,29,24,1570479810,"D:\\utilitaires\\vim\\_vimrc"
--'  26  24  D:\utilitaires\vim\_vimrc
-|4,39,26,24,1570479810,"D:\\utilitaires\\vim\\_vimrc"
--'  29  24  D:\utilitaires\vim\_vimrc
-|4,39,29,24,1570479810,"D:\\utilitaires\\vim\\_vimrc"
--'  26  24  D:\utilitaires\vim\_vimrc
-|4,39,26,24,1570479810,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479802,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479802,"D:\\utilitaires\\vim\\_vimrc"
--'  25  24  D:\utilitaires\vim\_vimrc
-|4,39,25,24,1570479790,"D:\\utilitaires\\vim\\_vimrc"
--'  25  24  D:\utilitaires\vim\_vimrc
-|4,39,25,24,1570479790,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479778,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479778,"D:\\utilitaires\\vim\\_vimrc"
--'  1  15  D:\utilitaires\vim\_vimrc
-|4,39,1,15,1570479483,"D:\\utilitaires\\vim\\_vimrc"
--'  1  15  D:\utilitaires\vim\_vimrc
-|4,39,1,15,1570479483,"D:\\utilitaires\\vim\\_vimrc"
--'  30  0  D:\utilitaires\vim\_vimrc
-|4,39,30,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  30  0  D:\utilitaires\vim\_vimrc
-|4,39,30,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  27  0  D:\utilitaires\vim\_vimrc
-|4,39,27,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  30  0  D:\utilitaires\vim\_vimrc
-|4,39,30,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  27  0  D:\utilitaires\vim\_vimrc
-|4,39,27,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479244,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479199,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  26  0  D:\utilitaires\vim\_vimrc
-|4,39,26,0,1570479186,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
--'  1  0  D:\utilitaires\vim\_vimrc
-|4,39,1,0,1570479170,"D:\\utilitaires\\vim\\_vimrc"
+-'  9  13  D:\utilitaires\vim\readme.md
+|4,39,9,13,1570482299,"D:\\utilitaires\\vim\\readme.md"
+-'  9  13  D:\utilitaires\vim\readme.md
+|4,39,9,13,1570482207,"D:\\utilitaires\\vim\\readme.md"
+-'  9  13  D:\utilitaires\vim\readme.md
+|4,39,9,13,1570482207,"D:\\utilitaires\\vim\\readme.md"
+-'  4  2  D:\utilitaires\vim\readme.md
+|4,39,4,2,1570482188,"D:\\utilitaires\\vim\\readme.md"
+-'  4  2  D:\utilitaires\vim\readme.md
+|4,39,4,2,1570482188,"D:\\utilitaires\\vim\\readme.md"
+-'  4  2  D:\utilitaires\vim\readme.md
+|4,39,4,2,1570482188,"D:\\utilitaires\\vim\\readme.md"
+-'  66  9  D:\utilitaires\vim\_vimrc
+|4,39,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+-'  66  9  D:\utilitaires\vim\_vimrc
+|4,39,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+-'  66  9  D:\utilitaires\vim\_vimrc
+|4,39,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+-'  66  9  D:\utilitaires\vim\_vimrc
+|4,39,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+-'  66  9  D:\utilitaires\vim\_vimrc
+|4,39,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+-'  66  9  D:\utilitaires\vim\_vimrc
+|4,39,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+-'  66  9  D:\utilitaires\vim\_vimrc
+|4,39,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+-'  66  9  D:\utilitaires\vim\_vimrc
+|4,39,66,9,1570481266,"D:\\utilitaires\\vim\\_vimrc"
+-'  9  0  D:\utilitaires\vim\readme.md
+|4,39,9,0,1570481172,"D:\\utilitaires\\vim\\readme.md"
+-'  9  0  D:\utilitaires\vim\readme.md
+|4,39,9,0,1570481172,"D:\\utilitaires\\vim\\readme.md"
+-'  9  0  D:\utilitaires\vim\readme.md
+|4,39,9,0,1570481019,"D:\\utilitaires\\vim\\readme.md"
+-'  9  0  D:\utilitaires\vim\readme.md
+|4,39,9,0,1570481019,"D:\\utilitaires\\vim\\readme.md"
+-'  9  0  D:\utilitaires\vim\readme.md
+|4,39,9,0,1570480952,"D:\\utilitaires\\vim\\readme.md"
+-'  9  0  D:\utilitaires\vim\readme.md
+|4,39,9,0,1570480952,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  1  0  D:\utilitaires\vim\readme.md
+|4,39,1,0,1570480909,"D:\\utilitaires\\vim\\readme.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  8  1  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,8,1,1570480902,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  1  0  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,1,0,1570480848,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  1  0  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,1,0,1570480848,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  1  0  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,1,0,1570480848,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  1  0  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,1,0,1570480848,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  1  0  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,1,0,1570480848,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  1  0  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,1,0,1570480848,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
+-'  1  0  D:\utilitaires\vim\vimfiles\bundle\toto.md
+|4,39,1,0,1570480848,"D:\\utilitaires\\vim\\vimfiles\\bundle\\toto.md"
 
 # History of marks within files (newest to oldest):
 
+> D:\utilitaires\vim\readme.md
+	*	1570482283	0
+	"	9	13
+	^	4	4
+	.	9	0
+	+	1	0
+	+	14	52
+	+	15	83
+	+	17	0
+	+	16	1
+	+	17	43
+	+	17	0
+	+	19	56
+	+	20	0
+	+	9	14
+	+	4	0
+	+	9	0
+
 > D:\utilitaires\vim\_vimrc
-	*	1570480556	0
-	"	65	0
-	^	27	65
-	.	27	64
+	*	1570481265	0
+	"	66	9
+	^	66	10
+	.	66	9
 	+	25	0
 	+	29	22
 	+	28	8
 	+	27	64
+	+	67	0
+	+	66	9
+
+> D:\utilitaires\vim\vim81\doc\options.txt
+	*	1570481210	0
+	"	9084	0
+
+> D:\utilitaires\vim\vimfiles\bundle\toto.md
+	*	1570480899	0
+	"	8	1
+	^	8	2
+	.	8	1
+	+	8	1
 
 > D:\temp\mytest.xml
 	*	1570480533	0
@@ -487,21 +532,6 @@ $vimfiles
 	^	1	47
 	.	1	46
 	+	1	46
-
-> D:\utilitaires\vim\readme.md
-	*	1570477023	0
-	"	20	0
-	^	20	0
-	.	20	0
-	+	1	0
-	+	14	52
-	+	15	83
-	+	17	0
-	+	16	1
-	+	17	43
-	+	17	0
-	+	19	56
-	+	20	0
 
 > C:\00 - Data\programmation\PythonWork\helloWorld.py
 	*	1522419038	0
