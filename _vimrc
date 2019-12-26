@@ -54,7 +54,13 @@ set encoding=utf-8
 set autochdir
 
 " changement du répertoire de travail
-cd D:\temp
+if isdirectory("D:\temp") " Desktop.
+  cd D:\temp
+elseif isdirectory("C:\00 - Data\temp") " Laptop.
+  cd C:\00 - Data\temp
+else
+  cd $VIM\temp
+endif
 
 " gestion de l'encodage des fichiers (vim va les essayer tous et voir celui
 " qui convient)
