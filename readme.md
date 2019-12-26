@@ -7,7 +7,7 @@ This is my Vim installation.
 
 - clone the repo;
 - adapt the _\_vimrc_ file:
-  - line 53: set your default working dir.
+  - line 56: set your default working dir.
 
 ## Add the path to the system environment variables
 It can be handy to have vim path in the system environment variable; that way, one can open vim or gvim simply by typing it in the CMD for instance.  
