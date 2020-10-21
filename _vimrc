@@ -54,9 +54,9 @@ set encoding=utf-8
 set autochdir
 
 " changement du répertoire de travail
-if isdirectory("D:\temp") " Desktop.
+if isdirectory("D:/temp/") " Desktop.
   cd D:\temp
-elseif isdirectory("C:\00 - Data\temp") " Laptop.
+elseif isdirectory("C:/00 - Data/temp/") " Laptop.
   cd C:\00 - Data\temp
 else
   cd $VIM\temp
