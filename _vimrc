@@ -45,7 +45,13 @@ set lines=60 columns=150
 set number
 
 " gestion des fichiers xml
+"  - gestion du formatting
 au FileType xml setlocal equalprg=\"$VIM\"\\lib\\bin\\xmllint\ --format\ --recover\ -\ 2>/dev/null
+
+"  - gestion des folds
+let g:xml_syntax_folding=1
+au FileType xml setlocal foldmethod=syntax
+au FileType xml :%foldopen!
 
 " gestion de l'encoding par défaut
 set encoding=utf-8
